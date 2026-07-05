@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Everything by Blessed"
+version = "1.0.0"
+id = "artifacts/everything-by-blessed"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20176
+
+[services.development]
+run = "pnpm --filter @workspace/everything-by-blessed run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/everything-by-blessed", "run", "build" ]
+publicDir = "artifacts/everything-by-blessed/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20176"
+BASE_PATH = "/"

@@ -1,0 +1,206 @@
+Create an ultra-premium, feminine, futuristic, luxury e-commerce showcase website for a Nigerian jewelry and accessories brand called Everything by Blessed.
+This is a real production website, not a demo. The design should feel like a luxury fashion brand such as Cartier, Tiffany, Rolex, Swarovski, or Pandora, but with a modern Nigerian luxury aesthetic.
+Overall Style
+The website should be breathtaking, elegant, luxurious, feminine, futuristic, and extremely polished.
+Use a dark luxury theme with beautiful accents.
+Primary colors:
+Matte Black (#0D0D0D)
+Charcoal
+Rose Gold
+Gold
+Champagne
+Soft Pink highlights
+White typography
+Use tasteful glassmorphism, soft glowing effects, elegant gradients, premium animations, smooth page transitions, floating cards, and subtle motion throughout the site.
+The UI should feel expensive, clean, and modern—not cluttered.
+Every section should have generous spacing and smooth scrolling.
+Business Information
+Business Name: Everything by Blessed
+Location: Lagos, Ojo (Abule Area), Nigeria
+WhatsApp: 08062951033
+TikTok: everythingbyblessed0
+Products
+The business sells:
+Luxury Jewelry
+Wrist Watches
+Ice Chains
+Diamonds
+Necklaces
+Earrings
+Bracelets
+Rings
+Perfumes
+Sneakers
+Fashion Accessories
+Luxury Gift Items
+Homepage
+Design an eye-catching hero section with luxury typography and animated floating jewelry-inspired shapes (using abstract icons only, not fake product photos).
+Headline:
+Luxury That Speaks Before You Do.
+Subheading:
+Discover premium jewelry, luxury watches, perfumes, sneakers, and exclusive accessories carefully selected to elevate your style.
+Include:
+Shop Collection button
+Order on WhatsApp button
+Elegant scroll animation
+Luxury glow effects
+Gallery
+Create a stunning luxury gallery.
+This is one of the most important sections.
+Requirements:
+Masonry layout
+Large premium image cards
+Hover animations
+Smooth fade transitions
+Image zoom
+Lightbox viewer
+Category filtering
+Lazy loading
+Responsive grid
+DO NOT generate fake AI product images.
+The gallery must display ONLY real uploaded photos and videos provided by the website owner.
+Until real content is uploaded, display elegant placeholders that clearly indicate where uploaded products will appear.
+Product Cards
+Each product should support:
+Product Name
+Description
+Multiple Images
+Video Upload
+Category
+Price (optional)
+If no price is entered by the admin:
+Automatically display
+₦40,000+
+instead.
+Each product should have:
+Order on WhatsApp
+Enquire on WhatsApp
+Clicking either button should automatically open WhatsApp with a message like:
+Hello Everything by Blessed, I'm interested in the Luxury Gold Watch displayed on your website. Please send me more information.
+Categories
+Include:
+Jewelry
+Watches
+Ice Chains
+Diamonds
+Perfumes
+Sneakers
+Accessories
+New Arrivals
+Best Sellers
+Admin Dashboard
+Create a secure Admin section.
+Only ONE admin account exists.
+No customer accounts.
+Admin can:
+Login securely
+Upload products
+Upload multiple images
+Upload MP4 videos
+Edit products
+Delete products
+Update prices
+Leave price empty
+Change product availability
+Create categories
+Edit categories
+Feature products
+Mark New Arrival
+Manage gallery
+Manage homepage featured products
+The dashboard should be modern, beautiful and responsive.
+WhatsApp Integration
+Every page should include:
+Floating WhatsApp button.
+Also include:
+Live WhatsApp Chat button.
+Every product card should have:
+Order Now on WhatsApp
+and
+Enquire Now
+Both should automatically prefill product information.
+About Section
+Create a beautiful luxury brand story section introducing Everything by Blessed as a trusted destination for premium jewelry, watches, perfumes, sneakers, and fashion accessories in Lagos.
+Testimonials
+Display elegant customer reviews in animated cards.
+FAQ
+Include:
+How to Order
+Delivery
+Pickup
+WhatsApp Orders
+[7/4/2026 2:58 PM] Dee: Returns
+Product Authenticity
+Contact
+Display:
+Everything by Blessed
+Lagos Ojo (Abule Area)
+WhatsApp: 08062951033
+TikTok: everythingbyblessed0
+Include embedded Google Map placeholder that can easily be updated later.
+Icons
+Only icons may be AI-generated or sourced from high-quality open-source icon libraries.
+Do NOT generate AI product photos.
+Use only uploaded images and uploaded videos for all products.
+Performance
+The website must be extremely fast.
+Requirements:
+Lazy loading
+Optimized images
+Optimized videos
+Code splitting
+Responsive images
+Modern HTML5
+CSS
+TypeScript
+Accessibility support
+SEO optimized
+Fast Lighthouse score
+Responsive Design
+The website must work flawlessly on:
+Android phones
+iPhones
+Tablets
+Laptops
+Desktop computers
+The experience should be identical across:
+Chrome
+Safari
+Firefox
+Microsoft Edge
+Opera
+No layout shifts.
+No broken animations.
+No overflow issues.
+Deployment
+The project must deploy perfectly on Netlify without any additional configuration.
+Requirements:
+Production-ready build
+All assets load correctly after deployment
+Images and videos remain functional on Netlify
+Clean project structure
+No broken routes
+No hydration issues
+SPA routing configured correctly
+Environment variables clearly documented if required
+Technical Stack
+Use:
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+Responsive design
+Supabase (authentication and database)
+Supabase Storage (for image and video uploads)
+The admin dashboard should automatically store uploaded images and videos in Supabase Storage, and all product data (names, descriptions, prices, categories, featured status, etc.) in the Supabase database.
+Final Goal
+Build a website that feels like a premium international luxury fashion brand while remaining warm, feminine, and inviting. The experience should be smooth, visually stunning, highly responsive, and easy for the owner to manage. Customers should be able to browse beautiful real product photos and videos and place orders effortlessly through WhatsApp, while the single admin can upload new collections and update prices at any time without needing technical knowledge.
+
+The admin login should also be at the front page of the website for easy access and also to access the upload section from mobile or pc devices. 
+This should be the login details:
+Email: blessingigoh04@gmail.com
+
+Password: Efe123$
+
+
+And let there be a beautiful heading on the front page of the website  that says "online store in Lagos" because there's no physical presence yet.  Add these two videos to the website. make sure theres no error and this site deploys perfectly through netlify both image and videos. that our store section should also indicate this is just an online store with no physical shop yet
